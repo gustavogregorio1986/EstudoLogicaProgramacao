@@ -4,8 +4,16 @@ Console.WriteLine("Hello, World!");
 string cidade = "São Paulo";
 
 Console.WriteLine(cidade);
-
+//Essa idade principal
 int idade = 20;
+
+/*
+ * Console.WriteLine(idade);
+   long idadeLong = 30;
+   Console.WriteLine(idadeLong);
+   double temperatura = 5.60;
+   Console.WriteLine(temperatura); 
+ */
 Console.WriteLine(idade);
 long idadeLong = 30;
 Console.WriteLine(idadeLong);
@@ -24,3 +32,4 @@ Console.WriteLine(letraComVar);
 const string URL_SISTEMA = "http://teste.com";
 
 Console.WriteLine(URL_SISTEMA);
+
