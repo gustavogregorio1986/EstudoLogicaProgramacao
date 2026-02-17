@@ -20,3 +20,7 @@ Console.WriteLine(letra);
 
 var letraComVar = "teste";
 Console.WriteLine(letraComVar);
+
+const string URL_SISTEMA = "http://teste.com";
+
+Console.WriteLine(URL_SISTEMA);
