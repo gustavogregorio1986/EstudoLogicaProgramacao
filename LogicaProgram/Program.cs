@@ -33,3 +33,63 @@ const string URL_SISTEMA = "http://teste.com";
 
 Console.WriteLine(URL_SISTEMA);
 
+//Console.WriteLine("------------------------------------------------------");
+
+//int valor1 = 5;
+//int valor2 = 10;
+//double valor3 = 5.5;
+
+//int resultado = valor1 + valor2 + Convert.ToInt32(valor3);
+//Console.WriteLine(resultado);
+
+//int multiplicacao = (valor1 * valor2) - 90;
+//Console.WriteLine(multiplicacao);
+
+//int subtracao = valor1 + valor2 + Convert.ToInt32(valor3);
+//Console.WriteLine(subtracao);
+
+//int divisao = valor2/valor1;
+//Console.WriteLine(divisao);
+
+/*
+ *  ==
+ *  >= 
+ *  <=
+ *  !=
+ *  <
+ *  >
+ */
+
+bool igual = 50 == 50;
+bool maiorIgual = 80 >= 50;
+bool menorIgual = 50 <= 50;
+bool maior = 50 > 50;
+bool menor = 50 < 52;
+bool diferente = 10 != 50;
+
+if (maiorIgual)
+{
+    Console.WriteLine(maiorIgual);
+}
+else
+{
+    Console.WriteLine(maiorIgual);
+}
+
+if (menorIgual)
+{
+    Console.WriteLine(menorIgual);
+}
+else
+{
+    Console.WriteLine(menorIgual);
+}
+
+if (maior)
+{
+    Console.WriteLine(maior);
+}
+else
+{
+    Console.WriteLine(maior);
+}
