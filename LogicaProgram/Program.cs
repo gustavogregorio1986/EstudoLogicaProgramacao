@@ -160,3 +160,37 @@ else
 {
     Console.WriteLine("Falso");
 }
+
+bool resultado = (1 > 5) ? true : false;
+
+Console.WriteLine(resultado);
+
+string resultado1 = (1 > 5) ? "verdadeiro" : "falso";
+
+Console.WriteLine(resultado1);
+
+void EstadoBrasileiro()
+{
+    Console.WriteLine("Sergipe");
+}
+
+EstadoBrasileiro();
+
+string retornaEstado()
+{
+    string retorno = "Rio de Janeiro";
+    return retorno;
+}
+
+var estado = retornaEstado();
+Console.WriteLine(estado);
+
+int somaDoisNumeros(int num1, int num2)
+{
+    int resultado = num1 + num2;
+    return resultado;
+}
+
+int resultado2 = somaDoisNumeros(10, 20);
+
+Console.WriteLine(resultado2);
