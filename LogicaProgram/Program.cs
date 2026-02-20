@@ -93,3 +93,70 @@ else
 {
     Console.WriteLine(maior);
 }
+
+//&& => e 
+//|| => ou
+// ! => negação
+
+if(true && false)
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
+
+if ((7 > 5) && (10 > 5))
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
+
+if ((7 > 5) && (1 > 5))
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
+
+if((7 > 5) || (1 > 5))
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
+
+if (!(1 > 5) && (7 > 5))
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
+
+if ((1 > 5) && !(7 > 5))
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
+
+if ((1 > 5) || (7 > 5))
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("Falso");
+}
