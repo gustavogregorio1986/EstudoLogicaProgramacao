@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Collections;
+
 Console.WriteLine("Hello, World!");
 
 string cidade = "São Paulo";
@@ -58,7 +60,7 @@ Console.WriteLine(URL_SISTEMA);
  *  !=
  *  <
  *  >
- */
+
 
 bool igual = 50 == 50;
 bool maiorIgual = 80 >= 50;
@@ -194,3 +196,21 @@ int somaDoisNumeros(int num1, int num2)
 int resultado2 = somaDoisNumeros(10, 20);
 
 Console.WriteLine(resultado2);
+ */
+
+var arrayList = new ArrayList();
+
+arrayList.Add("Willian"); //0
+arrayList.Add(10); //1
+arrayList.Add(true); //2
+
+Console.WriteLine(arrayList[0]);
+
+//arrayList.RemoveAt(1);
+
+Console.WriteLine(arrayList[1]);
+
+foreach (var item in arrayList)
+{
+    Console.WriteLine(item);
+}
