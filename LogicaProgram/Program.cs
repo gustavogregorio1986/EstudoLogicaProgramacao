@@ -245,3 +245,24 @@ foreach (var item in listaGenercia)
 {
     Console.WriteLine(item);
 }
+
+var dicionario = new Dictionary<int, string>();
+var dicionario1 = new Dictionary<string, string>();
+
+dicionario.Add(987, "Teste 987");
+dicionario1.Add("986", "Teste 98");
+
+var valor = dicionario[987];
+var valor1 = dicionario1["986"];
+
+Console.WriteLine(valor);
+Console.WriteLine(valor1);
+
+valor1 = dicionario1["986"] = "Palavra";
+
+Console.WriteLine(valor1);
+
+foreach (var item in dicionario)
+{
+    Console.WriteLine($"Chave: {item.Key} - Valor: {item.Value}");
+}
