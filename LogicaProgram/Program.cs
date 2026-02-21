@@ -214,3 +214,24 @@ foreach (var item in arrayList)
 {
     Console.WriteLine(item);
 }
+
+var arrayString = new string[5];
+
+arrayString[0] = "Teste";
+arrayString[1] = "Teste1";
+arrayString[2] = "Teste2";
+arrayString[3] = "Teste3";
+arrayString[4] = "Teste4";
+
+foreach (var item in arrayString)
+{
+    Console.WriteLine(item);
+}
+
+var arrayInt = new int[4] {1,2,3,4 };
+
+foreach (var item in arrayInt)
+{
+    Console.WriteLine(item);
+}
+
