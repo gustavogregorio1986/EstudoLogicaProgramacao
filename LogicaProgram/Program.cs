@@ -235,3 +235,13 @@ foreach (var item in arrayInt)
     Console.WriteLine(item);
 }
 
+var listaGenercia = new List<string>();
+var listaGenerciaInteiro = new List<int>();
+
+listaGenercia.Add("Teste");
+listaGenerciaInteiro.Add(15);
+
+foreach (var item in listaGenercia)
+{
+    Console.WriteLine(item);
+}
