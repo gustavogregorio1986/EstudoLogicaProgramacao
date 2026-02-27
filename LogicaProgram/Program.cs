@@ -266,3 +266,55 @@ foreach (var item in dicionario)
 {
     Console.WriteLine($"Chave: {item.Key} - Valor: {item.Value}");
 }
+
+var objQueue = new Queue<string>();
+
+objQueue.Enqueue("Empilhamento1");
+objQueue.Enqueue("Empilhamento2");
+objQueue.Enqueue("Empilhamento3");
+
+var primeira = objQueue.Peek();
+var segunda = objQueue.Peek();
+
+Console.WriteLine(primeira);
+Console.WriteLine(segunda);
+
+primeira = objQueue.Dequeue();
+Console.WriteLine(primeira);
+segunda = objQueue.Dequeue();
+Console.WriteLine(segunda);
+
+Console.WriteLine("-----------------------------------------------");
+
+var terceira = objQueue.Peek();
+Console.WriteLine(terceira);
+Console.WriteLine("----- FOREACH --------");
+foreach (var item in objQueue)
+{
+    Console.WriteLine(item);
+}
+
+var estado = new Stack<string>();
+
+estado.Push("Amazona");
+estado.Push("Parana");
+estado.Push("Mato Grosso");
+
+foreach (var item in estado)
+{
+    Console.WriteLine(item);
+}
+
+var capturarDados = estado.Pop();
+var capturarDados2 = estado.Pop();
+Console.WriteLine(capturarDados);
+Console.WriteLine(capturarDados2);
+
+
+/*
+foreach (var item in estado)
+{
+    Console.WriteLine(item);
+}
+*/
+
