@@ -16,6 +16,12 @@ namespace Logicaprogram1.Model
         }
     }
 
+    public sealed class PessoaSelada
+    {
+        public string Nome { get; set; }
+    }
+
+
     public class Pessoa
     {
         //Propriedades
@@ -43,9 +49,9 @@ namespace Logicaprogram1.Model
         }
 
         //metodo publico
-        public string Falar()
+        public virtual string Falar(string texto)
         {
-            return "Falando do metodo";
+            return texto;
         }
     }
 }

@@ -36,6 +36,9 @@ namespace Programa
             var chave = PessoaStatic.chave;
             Console.WriteLine(chave);
             Console.WriteLine(pedro.Nacionalidade);
+
+            PessoaSelada pessoa = new PessoaSelada();
+            pessoa.Nome = "Teste";
         }
     }
 }
