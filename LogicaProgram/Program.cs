@@ -415,6 +415,13 @@ foreach (var item in teste)
     Console.WriteLine(item);
 }
 
+string teste1 = "Willian";
+foreach (var item in teste1)
+{
+    Console.WriteLine(item);
+    break;
+}
+
 Console.WriteLine("Valor da lista cerscente de 1 a 10");
 
 int contador = 0;
@@ -443,3 +450,23 @@ do
     Console.WriteLine("DoWhile: " + contador2);
     contador2++;
 } while (contador2 < 10);
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("Entendendo o Continue");
+    Console.WriteLine(i);
+    if (i == 3)
+    {
+        Console.WriteLine("Dentro do IF Continue");
+        continue;
+
+    }
+
+    if (i == 3)
+    {
+        Console.WriteLine("Dentro do IF Break");
+        break;
+
+    }
+}
+
