@@ -318,3 +318,88 @@ foreach (var item in estado)
 }
 */
 
+/*
+  
+  1 - conta corrnte
+  2 - conta poupança
+  3 - conta universitaria
+   - DEsse codigo não existensole.WriteLine
+
+*/
+
+/*
+
+var contaCorrente = 0;
+
+if(contaCorrente == 1)
+{
+    Console.WriteLine("conta corrnte");
+}
+else if(contaCorrente == 2)
+{
+    Console.WriteLine("conta poupança");
+}
+else if(contaCorrente == 3)
+{
+    Console.WriteLine("conta universitaria");
+}
+else
+{
+    Console.WriteLine("Esse codigo não existe");
+}
+
+
+if (contaCorrente == 1)
+    Console.WriteLine("conta corrente");
+else if (contaCorrente == 2)
+    Console.WriteLine("conta poupança");
+else if (contaCorrente == 3)
+    Console.WriteLine("conta universitaria");
+else
+    Console.WriteLine("Esse codigo não existe");
+*/
+
+var contaCorrente = 0;
+
+switch (contaCorrente) { 
+     case 1:
+        Console.WriteLine("conta corrente");
+        break;
+     case 2:
+        Console.WriteLine("conta poupança");
+        break;
+     case 3:
+        Console.WriteLine("conta universitaria");
+        break;
+    default:
+        Console.WriteLine("Valor invalido");
+        break;
+}
+
+Console.WriteLine("Crescente");
+
+for(int i = 0; i <= 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+Console.WriteLine("Decrescente");
+
+for (int i = 10; i >= 0; i--)
+{
+    Console.WriteLine(i);
+}
+
+var estados = new List<string>();
+estados.Add("São Paulo");
+estados.Add("Rio de Janeiro");
+estados.Add("Minas gerais");
+estados.Add("Parana");
+Console.WriteLine("Lista");
+Console.WriteLine(estados.Count);
+
+for (int i = 0; i < estados.Count; i++)
+{
+    var est = estados[i];
+    Console.WriteLine(est);
+}
