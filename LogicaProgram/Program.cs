@@ -470,3 +470,19 @@ for (int i = 0; i < 10; i++)
     }
 }
 
+/*
+ 
+ -- Porlimorfismo
+ -- Herança
+ -- Abstração
+ -- Encapsulamento
+ 
+  Vantagens da OO:
+
+  Reutilização de Código: Classes e objetos podem ser reutilizados em diferentes partes do programa ou em projetos futuros, economizando tempo e esforço.
+
+  Encapsulamento: A OO permite ocultar os detalhes internos de uma classe, expondo apenas o que é necessário para o uso externo. Isso ajuda a proteger os dados e a reduzir a complexidade do código.
+
+    Polimorfismo: A OO permite que objetos de diferentes classes sejam tratados de maneira uniforme, desde que compartilhem uma interface comum. Isso facilita a extensão e a manutenção do código.
+ 
+ */
