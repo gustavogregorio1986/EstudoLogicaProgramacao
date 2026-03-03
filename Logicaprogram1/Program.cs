@@ -26,7 +26,7 @@ namespace Programa
             falando = maria.Falar();
             Console.WriteLine(falando);
 
-            Pessoa pedro = new Pessoa(1,"João", new DateTime(2000,05,01));
+            Pessoa pedro = new Pessoa(1,"João", new DateTime(2000,05,01), "Brasileiro");
             Console.WriteLine(pedro.Nome);
             Console.WriteLine(pedro.DataNascimento);
 
@@ -35,6 +35,7 @@ namespace Programa
 
             var chave = PessoaStatic.chave;
             Console.WriteLine(chave);
+            Console.WriteLine(pedro.Nacionalidade);
         }
     }
 }

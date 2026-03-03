@@ -23,6 +23,10 @@ namespace Logicaprogram1.Model
 
         public string Nome { get; set; }
 
+        //public string Nacionalidade { get; }
+
+        public readonly string Nacionalidade; 
+
         public DateTime DataNascimento { get; set; }
 
         public Pessoa()
@@ -30,11 +34,12 @@ namespace Logicaprogram1.Model
             
         }
 
-        public Pessoa(int _id, string _nome, DateTime _datanascimento)
+        public Pessoa(int _id, string _nome, DateTime _datanascimento, string _nacionalidade)
         {
             this.Id = _id;
             this.Nome = _nome;
             this.DataNascimento = _datanascimento;
+            this.Nacionalidade = _nacionalidade;
         }
 
         //metodo publico
