@@ -403,3 +403,43 @@ for (int i = 0; i < estados.Count; i++)
     var est = estados[i];
     Console.WriteLine(est);
 }
+
+foreach(var item in estados)
+{
+    Console.WriteLine(item);
+}
+
+string teste = "Willian";
+foreach (var item in teste)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine("Valor da lista cerscente de 1 a 10");
+
+int contador = 0;
+while (contador < 10)
+{
+    Console.WriteLine(contador);
+    contador++;
+}
+
+Console.WriteLine("do while");
+
+var contador1 = 0;
+
+do
+{
+    Console.WriteLine("DoWhile: " + contador1);
+    contador1++;
+} while (contador1 < 10);
+
+Console.WriteLine("do while");
+
+var contador2 = 50;
+
+do
+{
+    Console.WriteLine("DoWhile: " + contador2);
+    contador2++;
+} while (contador2 < 10);
